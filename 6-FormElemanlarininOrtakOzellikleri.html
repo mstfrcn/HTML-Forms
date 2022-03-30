@@ -1,0 +1,64 @@
+<!--
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <ul>
+            <caption> FORM ELEMANLARININ ORTAK OZELLIKLERI </caption>
+            <li>size: form elemanlarinin boyutu</li>
+            <li>value: fomr elemaninin ustunde yazan yazi</li>
+            <li>placeholder: form elamaninda bir aciklama metni gozukmesini saglar</li>
+            <li>name: form elemanlarinin benzersiz isimleri js kodu uygulamak icin kullanilabilir</li>
+            <li>id: form elamaninin tanim kodu. css veya js kodu uygulamak icin kullanilir</li>
+            <li>autofocus: sayfa acildiginda fare imlecinin form elemanini aktif etmesini saglar</li>
+            <li>autocomplete: formlara girilen verilerin daha once girilen veriler dikkate alinarak tamamlanmasini saglar</li>
+            <li>maxlenght: form elamanina girilebilecek maksimum elaman sayisini belirler</li>
+            <li>required: form elemanini mutlaka doldurmaya zorunlu hale getirir</li>
+            <li>disabled: form elemanini pasif hale getirilmesini ve kullanilamamasini saglar</li>
+        </ul>
+        <h1>KAYIT FORMU</h1>
+        <form name="kayit" action="" method="kayit" autocomplete="on" autofocus >
+            <caption>KAYIT FORMU</caption>
+            <table border="5">
+                <tr>
+                    <td> AD: </td>
+                    <td> <input name="ad" id="ad" type="text" size="18" minlength="5" maxlength="20" placeholder="Lutfen Adinizi Giriniz: " required> </td>
+                </tr>
+                <tr>
+                    <td> SOYAD: </td>
+                    <td> <input name="soyad" id="soyad" type="text" size="18" minlength="6" maxlength="30" placeholder="Luten Soyadinizi Giriniz:" required></td>
+                </tr>
+                <tr>
+                    <td>TELEFON:</td>
+                    <td> <input name="tel" id="tel" type="tel" size="18" minlength="10" maxlength="11" placeholder="Lutfen Telefon Numaraniz:" required > </td>
+                </tr>
+                <tr>
+                    <td>E Mail:</td>
+                    <td><input name="email" id="email" type="email" required ></td>
+                </tr>
+                <tr>
+                    <td>URL GIR:</td>
+                    <td> <input name="url" id="url" type="url" placeholder="Lutfen URL Giriniz:" disabled> </td>
+                </tr>
+                <tr> 
+                    <td colspan="2"> <input type="submit" name="" id="" value="Gonder" style="background-color: aqua;"> <input type="reset" value="Temizle" style="background-color: brown;"> </td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <a target="_blank" href="https://www.youtube.com/watch?v=0vSW7FU2fDA"> <img src="C:\Users\MSTFRCN\Software\VisualStudıoCodeProject\Resimler\youtubeAmblem.png" alt="YOutube Amblemi" title="Guzel Bir Sarki Icin Tikla" width="150"> </a>
+
+        <table>
+            <ol>
+                <li> <a target="_blank" href="C:\Users\MSTFRCN\Software\VisualStudıoCodeProject\5-FormIslemleri\6-FormElemanlarininOrtakOzellikleri.html"> Form Islemeri Icin Tiklayin </a> </li>
+                <li> <a target="_blank" href="C:\Users\MSTFRCN\Software\VisualStudıoCodeProject\4-TabloIslemleri\2-TabloBicimlendirme.html"> Tablo Islemleri Icin Tiklayin</a></li>
+                <li> <a target="_blank" href="C:\Users\MSTFRCN\Software\VisualStudıoCodeProject\3-LinkIslemleri\1-LinkOlusturma.html"> Link Islemleri Icin Tiklayin </a> </li>
+            </ol>
+        </table>
+
+    </body>
+</html>
